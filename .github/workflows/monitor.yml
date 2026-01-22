@@ -1,4 +1,4 @@
-name: D&D Beyond Status Monitor
+name: D&D Beyond Changelog Monitor
 
 permissions:
   contents: write
