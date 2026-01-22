@@ -44,7 +44,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          if [ -f timeline_state.json ]; then
+          if [ -f seen_quick_links.json ]; then
             git add timeline_state.json
             git diff --cached --quiet || git commit -m "Update timeline state"
             git push
